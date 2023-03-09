@@ -1,0 +1,6 @@
+name: pulumi_azure_demo
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal Azure Native Python Pulumi program
