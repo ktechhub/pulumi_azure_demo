@@ -18,6 +18,8 @@ account = storage.StorageAccount('sa',
 
 # Export the account name
 pulumi.export("account_name", account.name)
+pulumi.export("account_type", account.type)
+pulumi.export("account_location", account.location)
 
 
 
@@ -92,7 +94,7 @@ vault = azure_native.keyvault.Vault("vault",
         tenant_id="47d43b05-8a98-4be2-91f6-bc8af5832a28",
     ),
     resource_group_name=resource_group.name,
-    vault_name="samplevault2487536213134")
+    vault_name="samplevault2487536213334")
 
 
 pulumi.export("vault_id", vault.id)
