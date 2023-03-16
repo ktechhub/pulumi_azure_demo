@@ -32,7 +32,7 @@ pulumi up
 
 ## Stack output
 ```sh
-pulumi stack output primary_storage_key
+pulumi stack output account_name
 ```
 
 ## Destroy
